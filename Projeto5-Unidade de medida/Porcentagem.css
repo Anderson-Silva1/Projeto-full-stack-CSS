@@ -1,0 +1,97 @@
+.div1 {
+    font-size: 10px;
+}
+.pai {
+    font-size:200%;
+}
+.f1 {
+    font-size: 50%;
+}
+.f2 {
+    font-size: 90%;
+}
+.f3 {
+    font-size: 100%;
+}
+.f4 {
+    font-size: 200%;
+}
+/*Div1*/
+
+.paidiv {
+    width: 50px;
+    height: 50px;
+    background: red;
+}
+.f12 {
+    width: 90%;
+    height: 90%;
+    background: blue;
+}
+.f22 {
+    width: 80%;
+    height: 80%;
+    background: yellow;
+}
+.f32 {
+    width: 50%;
+    height: 50%;
+    background: black;
+}
+.f42 {
+    width: 20%;
+    height: 20%;
+    background: cornsilk;
+}
+/*VW VH*/
+.paidiv2 {
+    width: 70vw;
+    height: 70vh;
+    background: red;
+}
+.f122 {
+    width: 90%;
+    height: 90%;
+    background: blue;
+}
+.f222 {
+    width: 80%;
+    height: 80%;
+    background: yellow;
+}
+.f322 {
+    width: 50%;
+    height: 50%;
+    background: black;
+}
+.f422 {
+    width: 20%;
+    height: 20%;
+    background: cornsilk;
+}
+/*EM*/
+.paiem {
+    width: 1000px;
+    height: 1000px;
+    background: red;
+}
+.fem {
+    width: 90%;
+    height: 90%;
+    background: blue;
+}
+.fem2 {
+    width: 80%;
+    height: 80%;
+    background: yellow;
+}
+.fem3 {
+    width: 50%;
+    height: 50%;
+    background: black;
+}
+.fem4 {
+    width: 20%;
+    height: 20%;
+    background: cornsilk;
+}

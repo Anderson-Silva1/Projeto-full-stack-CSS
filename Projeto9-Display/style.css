@@ -1,0 +1,57 @@
+.box-teste1 {
+    display: block;
+    background: red;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+}
+
+.box-block2 {
+    background: yellow;
+}
+
+.box-block3 {
+    background: blue ;
+}
+
+/**/
+
+.box-teste2 {
+    display: inline;
+    background: red;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+}
+
+.box-block4 {
+    background: yellow;
+}
+
+.box-block6 {
+    background: blue ;
+}
+
+/**/
+
+.box-inline-block {
+    background: red;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    display: inline-block;
+}
+
+.box-block-inline1 {
+    background: yellow;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+}
+
+.bbox-block-inline2 {
+    background: green ;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+}

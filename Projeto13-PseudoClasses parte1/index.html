@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PseudoClasses</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 class="titulo">PseudoClasses</h1>
+    <p class="sub-titulo">é trocar um estilo de um elemento em um determinado período sem usar &lt;class&gt; ou &lt;id&gt; </p>
+    <br><hr><br>
+    <h3 class="active">Active</h3>
+    <p class="paragrafo-active">Quando o elemento está ativo, ou seja, quando ele está pressionado</p>
+    <br>
+    <a href="#" class="link-active">Link Active</a>
+    <br><hr><br>
+    <h3 class="visited">Visited</h3>
+    <br>
+    <p class="paragrafo-visited">Seleciona o Link que já foi visitado</p>
+    <br>
+    <a href="https://www.youtube.com/" class="link-visited">Link Visited que leva para o YouTube</a>
+    <br><hr><br>
+    <h3 class="hover">hover</h3>
+    <br>
+    <p class="paragrafo-hover">Seleciona o Link que já foi visitado</p>
+    <br>
+    <a href="#" class="link-hover">Link hover</a>
+    <br><hr><br>
+    <h3 class="checked">checked</h3>
+    <br>
+    <p class="paragrafo-checked">Seleciona Seleciona a Caixa de texto/seleção/botão</p>
+    <br>
+    <input type="checkbox" id="input-checked">
+    <input type="radio" id="input-checked">
+    <select name="teste" id="teste" class="">
+        <option value="teste1">teste</option>
+        <option value="teste2">teste</option>
+        <option value="teste3">teste</option>
+    </select>
+    <br><hr><br>
+    <h3 class="disabled">disabled</h3>
+    <br>
+    <p class="paragrafo-disabled">Seleciona um Button ou um input que estejá desabilitado pelo atributo disabled </p>
+    <br>
+    <input class="input-disabled" type="checkbox" name="teste" id="12345678" disabled>
+    <h4>OBS - Enable: É o contrário de disabled, ou seja, enquando disabled é desabilitar, Enable é habilitar(que é o padrão) </h4>
+    <br><hr><br> 
+    <h3 class="focus">Focus</h3>
+    <br>
+    <p class="paragrafo-focus">É apliccado quando um elemento recebe foco, o que pode ocorrer quando um usuário seleciona um elemento</p>
+    <br>
+    <input href="#" class="input-focus"></input>
+    <br><hr><br> 
+    <h3 class="readonly">Readonly</h3>
+    <br>
+    <p class="paragrafo-readonly">Seleciona um input ou textarea que são apenas para leitura</p>
+    <br>
+    <input href="#" class="input-readonly" value="teste" readonly></input>                                                                      
+    <br><hr><br>
+    <h3 class="empty">empty</h3>
+    <p class="paragrafo-empty">Caso tenha algo dentro de um elemento ele mudará de estado, caso não tenha ele também mudará de estágio</p>
+    <br><br>
+    <div class="div-empty">1</div>
+</body>
+</html>

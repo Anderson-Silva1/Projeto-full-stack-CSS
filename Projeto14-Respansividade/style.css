@@ -1,0 +1,20 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    height: 200px;
+    width: 200px;
+    background: red;
+}
+
+@media(max-width: 600px) {
+    div {
+        background: blue;
+        height: 100px;
+        width: 100px;
+    }
+}
+/* Apartir de 600px de largura de telao elemento div ficara da cor azil de de tamanho 100 x 100 px */
+

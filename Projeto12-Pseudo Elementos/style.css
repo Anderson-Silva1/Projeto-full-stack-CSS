@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border: 3px solid black;
+    margin: 10px;
+}
+
+.titulo {
+    text-align: center;
+}
+ .primeiro-paragrafo {
+    text-align: center;
+}
+
+.paragrafo-sintaxe {
+    text-align: center ;
+    font-weight: 600;
+}
+
+
+main {
+    text-align: center;
+    margin: 10px;
+}
+
+.paragrafo-teste {
+    text-align: center;
+    height: 70px;
+    width: 510px;
+}
+
+.paragrafo-teste::first-line {
+    color: blue;
+}
+
+.paragrafo-teste2::first-letter {
+    text-align: center;
+    height: 70px;
+    width: 510px;
+    font-weight: 900;
+    font-size: 60px;
+    color: white;
+    background-color: black;
+}
+
+input::placeholder {
+    color: red;
+}
+
+a {
+    color: blue;
+
+}
+
+a::before {
+    content: "🚀";
+}
+
+a::after {
+    content: "🚀";
+}
+

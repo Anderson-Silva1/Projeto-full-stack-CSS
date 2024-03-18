@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}   
+
+.ul-first-child {
+    font-weight: 700;
+}
+.li-first-child {
+    font-weight: 400;
+}
+.li-first-child:first-child {
+    color: red;
+}
+/*vai pegar apenas o primeiro elemento de um pai e tranforma-lo em vermelho*/
+.span-first-of-type:first-of-type {
+    color: blue; 
+}
+.parágrafo-first-of-type:first-of-type {
+    color: blue;
+}
+/*Vai estiliza apenas o primeiro ele mento de um mesmo conjunto desse mesmo elemento ex: temos duas Div, e com esse código vai ser estilizadp apenas a primeira div*/
+.li-last-child:last-child {
+    color: yellow;
+}
+/* Vai estilizar apenas o ultimo elemento de um pai e tranformalo em amarelo */
+.span-last-of-type:last-of-type {   
+    color: blueviolet;
+}
+.parágrafo-last-of-type:last-of-type {
+    color: blueviolet;
+}
+/* Vai estilizar apenas o ultimo elemento de um mesmo conjunto desse mesmo elemento ex: temos duas Div, e com esse código vai ser estilizadp apenas a primeira div */
+.container :not(.span-not, .button-not) {
+    color: red;
+}
+/* Todos os elementos ficarão vermlelhos, menos os <span> e <button>*/
+/* USA-SE A "," PARA SEPARAR MAIS DE UM ELEMENTO NO ATIBUTO "NOT()" */
+
+.li-nth-child:nth-child(1) {
+    color: red;
+    font-size: 30px;
+}
+
+.li-nth-last-child:nth-last-child(1) {
+    color: red;
+    font-size: 30px;
+}

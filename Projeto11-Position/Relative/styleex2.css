@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    height: 200vh;
+    width: 200vh;
+}
+
+.div-pai {
+    height:350px; 
+    width: 350px;
+    background-color: blue;
+    position: relative;
+    top: 100px;
+    left: 30px;
+}
+
+.div-filho {
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+/*Nesse caso o "FILHO" se moveu 130px em relação ao topo, pois ele está relativo ao pai, e o pai se moveu a 100px em relação ao topo, e o filho se moveu a 30px em relação ao pai(Seu ponto de origem)*/
+
+.outra {
+    height: 150px;
+    width: 150px;
+    background-color: green;
+}
+/*Este elemento não se movei pq não tem relação direta com nenhum outro elemento que tem o position: relative*/

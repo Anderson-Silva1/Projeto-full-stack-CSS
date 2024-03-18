@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif ;
+    text-align: center;
+}
+
+.titulo {
+    text-align: center;
+}
+.sub-titulo {
+    font-weight: 700;
+}
+.active {
+    text-align: center;
+}
+.paragrafo-active {
+    text-align: center;
+}
+.link-active:active {
+    color: red;
+    font-weight: bolder;
+    font-size: 40px;
+}
+/*Quando Clicarmos nesse link ele ficara em negrito e aumentará a letra para 40px e ficará da cor Vermelha*/
+/*Nas PseudoElementos era ultilizado "::", já aqui nas PseudoClasses usasse apenas ":"*/
+.visited {
+    text-align: center;
+}
+.paragrafo-visited {
+    text-align: center;
+    cursor: pointer;
+}
+.link-visited:visited {
+    color: green;
+}
+/*Quando o link já foi acessado ele irá aparecer com um acor verde*/
+.hover {
+    text-align: center;
+}
+.paragrafo-hover {
+    text-align: center;
+}
+.link-hover:hover {
+    color: green;
+    font-size: 100px;
+    cursor: pointer;
+}
+/*Vai ser aplicado todas as vezes em que eu passar o mause em coma do meu elemento*/
+.checked {
+    text-align: center;
+}
+.paragrafo-checked {
+    text-align: center;
+}
+input:checked {
+    height: 100px;
+    width: 100px;
+}
+select:checked {
+    height: 100px;
+    width: 100px; 
+}
+option:checked {
+    height: 100px;
+    width: 100px;
+} 
+/*Vau pegar um bbotão/Caixa de seleção ou um select e colocar ele do tamanho de 100px x 100px*/                                                                                         
+.disabled {
+    text-align: center;
+}
+.paragrafo-disabled {
+    text-align: center;
+}
+.input-disabled:disabled {
+    height: 100px;
+    width: 100px;
+}
+/*Vai pegar  um elemento wur estiver desabilitado e colocar ele do tamanho de 100px x 100px*/
+.focus {
+    text-align: center;
+}
+.paragrafo-focus {
+    text-align: center;
+}
+.input-focus:focus {
+    width: 1000px;
+    border: 3px solid red;
+    color: blue;
+}
+/*Quando um elemento é focado/selecionado irá ficar com uma borda vermelha e um comprimento de 1000px com a letra azul*/
+.readonly {
+    text-align: center;
+}
+.paragrafo-readonly {
+    text-align: center;
+}
+.input-readonly:read-only {
+    width: 1000px;
+    border: 3px solid red;
+    color: blue;
+}
+/*Quando um elemento for readonly(Apenas para leitura) ele terá um comprumento de 1000px, borda vermelha e a letra azul*/
+.empty {
+    text-align: center;
+}
+.paragrafo-empty {
+    text-align: center;
+    cursor: pointer;
+}
+.div-empty {
+    background-color: red;
+    color: yellow;
+    height: 100px;
+    width: 100px;
+}
+.div-empty:empty {
+    background-color: green;
+    height: 1000px;
+    width: 1000px;
+}

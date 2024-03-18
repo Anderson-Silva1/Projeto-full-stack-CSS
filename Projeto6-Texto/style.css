@@ -1,0 +1,136 @@
+.b1 {
+    color: red;
+}
+.c1 {
+    color: blue;
+}
+/**/
+.b2 {
+    color: red;
+    font-size: 50px;
+}
+.c2 {
+    color: blue;
+    font-size: 25px;
+}
+/**/
+.b3 {
+    color: red;
+    font-size: 50px;
+    font-weight: 100;
+}
+.c3 {
+    color: blue;
+    font-size: 25px;
+    font-weight: 900;
+}
+/**/
+.b4 {
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+}
+.c4 {
+    color: blue;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.d4 {
+    color: yellow;
+    background-color: black;
+    font-size: 40px;
+    font-weight: lighter;
+}
+/**/
+.b5 {
+    color: red;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.c5 {
+    color: blue;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/**/
+.b6 {
+    color: red;
+    font-size: 50px;
+    font-style: italic;
+}
+.c6 {
+    color: blue;
+    font-size: 25px;
+    font-style: oblique ;
+}
+/**/
+.b7 {
+    color: red;
+    font-size: 50px;
+    letter-spacing: 20px;
+}
+.c7 {
+    color: blue;
+    font-size: 25px;
+    line-height: 120px;
+}
+/**/
+.b8 {
+    color: red;
+    font-size: 50px;
+    text-align: center;
+}
+.c8 {
+    color: blue;
+    font-size: 25px;
+    word-spacing: 120px;
+    text-align: center;
+}
+/**/
+.b9 {
+    color: red;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.c9 {
+    color: blue;
+    font-size: 25px;
+    text-transform: capitalize ;
+}
+/**/
+.b10 {
+    color: red;
+    font-size: 50px;
+    text-transform: lowercase;
+}
+.c10 {
+    color: blue;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+/**/
+.b11 {
+    color: red;
+    font-size: 50px;
+    text-decoration: overline;
+}
+.c11 {
+    color: blue;
+    font-size: 25px;
+    text-decoration: underline;
+}
+/**/
+.b12 {
+    color: red;
+    font-size: 50px;
+    text-shadow: 10px 10px 20px red;
+}
+.c12 {
+    color: blue;
+    font-size: 25px;
+    word-spacing: 20px;
+    letter-spacing: 10px;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+}

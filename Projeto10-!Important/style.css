@@ -1,0 +1,17 @@
+h1 {
+    color: blue !important;
+    color: red;
+    color: green;
+}
+
+h2 {
+    color: blue;
+    color: red !important;
+    color: green;
+}
+
+h3 {
+    color: blue;
+    color: red;
+    color: green !important;
+}

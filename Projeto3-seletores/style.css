@@ -1,0 +1,59 @@
+* {
+    background-color: green;
+}
+
+h1 {
+    background-color: black;
+    color: red;
+    font-size: 60px;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    background-color: red;
+    color: yellow;
+}
+
+p {
+    text-align: right;
+    color: white;
+    background-color: blue;
+}
+
+/*Modo de seleção ID*/
+
+#titulo1 {
+    background: yellow;
+    background-color: lightslategray;
+    font-size: 600%;
+}
+
+#paragrafo {
+    font-size: 60px;
+    background: honeydew;
+    background-color: black;
+}
+
+/*Modo de seleção CLASS*/
+
+.titulo1 {
+    color: mediumvioletred;
+
+}
+
+.paragrafo {
+    color: aqua;
+    font-size: 40px;
+}
+
+.botao {
+    color: red;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+/*Modo seleção todos os modos*/
+
+h1, h2, p, #titulo1, #paraagrafo, .titulo1, .paragrafo, .botao {
+    font-weight: bold ;
+} 

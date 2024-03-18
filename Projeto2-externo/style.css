@@ -1,0 +1,19 @@
+    /*Isso é um comentário*/
+    /*O ";" é obrigatório no CSS*/
+    /*Esse é uma das sintaxes do CSS
+    h1 {
+        color: red;
+        backgruond: black;...
+    }*/
+    h1 {
+        color: red;
+        background: black;
+    }
+    p {
+        color: green;
+        font-size: 20px;
+    }
+    button {
+        background: green;
+        border-color: blue;
+    }

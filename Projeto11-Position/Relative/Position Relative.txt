@@ -1,0 +1,7 @@
+Tipos de Position:
+Relative - Posição relativa/Referente a posição inicial dele, ou seja, se ele estiver em baixo de um outro elemento, ele vai se posicionar referente e este elemento
+
+Nele precisamos atribuir um valor de Top, Bottom, left e right... Caso não tenha, esta position não tera efeito
+
+EX: Top: 20px;
+Quando o elemento estiver a esta posição, de 20px em relação ao topo ele vai fixar na tela

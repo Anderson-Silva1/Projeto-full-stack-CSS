@@ -1,0 +1,20 @@
+.box {
+    box-sizing: content-box;
+    width: 100px;
+    height: 100px;
+    background: red ;
+    padding: 20px;
+
+    border: 100px solid   blueviolet
+    /*No Border podemos trocar o tamanho da borda a cor da borda e o tipo da borda*/
+}
+
+.box2 {
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    background: red ;
+    padding: 20px;
+
+    border: 10px solid   blueviolet
+}

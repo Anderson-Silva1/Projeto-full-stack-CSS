@@ -1,0 +1,8 @@
+Tipos de Position:
+Absolut - Posição abisoluta(Fixa) a algum elemento ou página
+
+Nele precisamos atribuir um valor de Top, Bottom, left e right... Caso não tenha, esta position não tera efeito
+
+Se o elemento com o "Position: absolut;" não tiver pai ou o pai for "Position: Static;"(Padrão), ele irá se posicionar em relação a Página 
+
+Se o elemento com o "Position: absolut;" tiver pai ou o pai que não é "Position: Static;"(Padrão), ele irá se posicionar em relação ao pai

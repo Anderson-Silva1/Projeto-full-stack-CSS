@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    height: 200vh;
+    width: 200vh;
+}
+
+.div-pai {
+    height:350px; 
+    width: 350px;
+    background-color: blue;
+}
+
+.div-filho {
+    height: 150px;
+    width: 150px;
+    background-color: red;
+}
+
+.outra {
+    height: 150px;
+    width: 150px;
+    background-color: green;
+    position: sticky;
+    top: 10px;
+}
+
+.outra1 {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(4, 31, 4);
+    position: sticky;
+    top: 20px;
+    left: 20px;
+}
+
+.outra2 {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(163, 255, 163);
+    position: sticky;
+    top: 30px;
+    left: 60px;
+}
+
+.outra3 {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(255, 0, 153);
+    position: sticky;
+    top: 40px;
+    left: 90px;
+}

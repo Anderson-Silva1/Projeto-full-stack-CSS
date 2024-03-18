@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    height: 200vh;
+    width: 200vh;
+}
+
+.div-pai {
+    height:350px; 
+    width: 350px;
+    background-color: blue;
+    position: fixed;
+    position: fixed;
+    top: 30px;
+}
+
+.div-filho {
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    top: 30px;
+}
+
+.traz {
+    height:100px; 
+    width: 100px;
+    background-color: green;
+    top: 10px;
+    left: 320px;
+}   
+
+.frente {
+    height:100px; 
+    width: 100px;
+    background-color: rgb(106, 255, 0);
+    top: 10px;
+    position: fixed;
+    left: 320px;
+}
+/*Se um elemento, chamado Elemento "A" estiver (No código) em baixo de outro elemento, chamado Elemento"B", o Elemento "A" irá ficar por tráz do Elemento "B" */
+/*OBS: Os elementos irão se sobresair caso tenha um elemento anterior a ele*/

@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    height: 200vh;
+    width: 200vh;
+}
+
+.div-pai {
+    height:350px; 
+    width: 350px;
+    background-color: blue;
+}
+
+.div-filho {
+    height: 150px;
+    width: 150px;
+    background-color: red;
+}
+
+.relative {
+    height: 150px;
+    width: 150px;
+    background-color: green;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.teste {
+    display: inline-block;
+}
+
+.teste1 {
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.teste2 {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(87, 0, 200);
+    display: inline-block;
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+.teste3 {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(255, 0, 162);
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}

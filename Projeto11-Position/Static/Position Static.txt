@@ -1,0 +1,4 @@
+Tipos de Position:
+Static - (Padrão) Não aceita valores de top, buttom, right ou left 
+
+Se posicionam o mais em cima e para a esquerda possível
